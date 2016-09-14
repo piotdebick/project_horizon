@@ -197,6 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a3aea66c80209468a4c613fe0c6ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ViewCamera: {fileID: 1346720322}
+  JumpSound: {fileID: 8300000, guid: 311bde2d611c7744e9b87713df344dd4, type: 3}
+  HitSound: {fileID: 8300000, guid: a5548be9a9e5a6d43adb6e184f7b96bb, type: 3}
+  CoinSound: {fileID: 8300000, guid: 50dee191f1af3994c99e69c8c4e2c104, type: 3}
 --- !u!54 &162972842
 Rigidbody:
   m_ObjectHideFlags: 0

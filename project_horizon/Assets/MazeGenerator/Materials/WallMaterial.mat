@@ -8,8 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: WallMaterial
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHATEST_ON
-  m_LightmapFlags: 5
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION
+  m_LightmapFlags: 1
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
@@ -93,7 +93,13 @@ Material:
         name: _EmissionScaleUI
       second: 0
     - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
         name: _Glossiness
+      second: 1
+    - first:
+        name: _GlossyReflections
       second: 1
     - first:
         name: _Metallic
@@ -108,6 +114,12 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
         name: _SrcBlend
       second: 1
     - first:
@@ -119,7 +131,7 @@ Material:
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0.9584179, g: 1, b: 0.6985294, a: 1}
+      second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 0}

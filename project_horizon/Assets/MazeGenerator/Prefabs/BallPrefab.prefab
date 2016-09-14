@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ViewCamera: {fileID: 0}
+  JumpSound: {fileID: 0}
+  HitSound: {fileID: 0}
+  CoinSound: {fileID: 0}
 --- !u!135 &13582488
 SphereCollider:
   m_ObjectHideFlags: 1
