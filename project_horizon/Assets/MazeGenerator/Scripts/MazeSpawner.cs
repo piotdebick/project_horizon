@@ -90,5 +90,15 @@ public class MazeSpawner : MonoBehaviour {
 				}
 			}
 		}
+        setPosition();
 	}
+
+    void setPosition()
+    {
+
+        transform.position = new Vector3(-14f, -10, 25);
+        transform.rotation = new Quaternion(1, 1, 1, 1);
+        transform.localScale = new Vector3(.65f, .65f, .65f);
+        
+    }
 }
