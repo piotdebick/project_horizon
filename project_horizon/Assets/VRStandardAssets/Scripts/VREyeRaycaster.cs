@@ -91,6 +91,7 @@ namespace VRStandardAssets.Utils
 
                 if (OnRaycasthit != null)
                     OnRaycasthit(hit);
+
             }
             else
             {
