@@ -8,6 +8,9 @@ TagManager:
   - Floor
   - Recticle
   - Coin
+  - MazeSpawner
+  - newMazeSpawner
+  - Canvas
   layers:
   - Default
   - TransparentFX

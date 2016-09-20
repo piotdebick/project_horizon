@@ -8,6 +8,8 @@ public class GoalInteraction : MonoBehaviour {
     [SerializeField] private Material m_OverMaterial;
     [SerializeField] private VRInteractiveItem m_InteractiveItem;
     [SerializeField] private Renderer m_Renderer;
+    public bool reached = false;
+    public bool counted = false;
     private void Awake()
     {
         m_Renderer.material = m_NormalMaterial;
@@ -32,13 +34,18 @@ public class GoalInteraction : MonoBehaviour {
     {
         Debug.Log("Show over state");
         m_Renderer.material = m_OverMaterial;
-        Destroy(transform.gameObject);
+        //Destroy(transform.gameObject);
+        if (counted == false)
+        {
+            reached = true;
+            counted = true;
+        }
     }
 
     private void HandleOut()
     {
         Debug.Log("Show out state");
-        m_Renderer.material = m_NormalMaterial;
+        //m_Renderer.material = m_NormalMaterial;
     }
 
 }
