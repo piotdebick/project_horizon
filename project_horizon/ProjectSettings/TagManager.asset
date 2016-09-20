@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Goal
+  - Floor
+  - Recticle
+  - Coin
   layers:
   - Default
   - TransparentFX

@@ -32,6 +32,7 @@ public class GoalInteraction : MonoBehaviour {
     {
         Debug.Log("Show over state");
         m_Renderer.material = m_OverMaterial;
+        Destroy(transform.gameObject);
     }
 
     private void HandleOut()
