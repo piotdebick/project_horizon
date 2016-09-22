@@ -127,6 +127,8 @@ MonoBehaviour:
   m_OverMaterial: {fileID: 2100000, guid: 996522b382717a54c945df7c35053044, type: 2}
   m_InteractiveItem: {fileID: 114000013479037560}
   m_Renderer: {fileID: 2308226}
+  reached: 0
+  counted: 0
 --- !u!114 &114000013479037560
 MonoBehaviour:
   m_ObjectHideFlags: 1

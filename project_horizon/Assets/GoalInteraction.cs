@@ -48,4 +48,9 @@ public class GoalInteraction : MonoBehaviour {
         //m_Renderer.material = m_NormalMaterial;
     }
 
+    public void Reset()
+    {
+        reached = false;
+        counted = false;
+    }
 }

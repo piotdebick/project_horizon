@@ -11,6 +11,7 @@ TagManager:
   - MazeSpawner
   - newMazeSpawner
   - Canvas
+  - Player
   layers:
   - Default
   - TransparentFX

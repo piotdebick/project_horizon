@@ -51,5 +51,11 @@ public class GoalCount : MonoBehaviour {
         }
     }
 
-
+    void Reset()
+    {
+        for (i = 0; i < goalLeft; i++)
+        {
+            goalReached = 0;
+        }
+    }
 }
